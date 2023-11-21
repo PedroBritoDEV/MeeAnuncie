@@ -23,7 +23,7 @@
   const optionsSlide = {
     type: 'loop',   
     autoplay: true, 
-    interval: 3000,
+    interval: 4000,
     arrows: false,
     pagination: false,
     height: '440px',
@@ -31,6 +31,7 @@
     speed: 1500,
     drag: false,
     pauseOnHover: false,
+    gap : '1px'
     
   };
 </script>
@@ -62,7 +63,7 @@
         
 
         <section class="w-3/4 mt-64  max-w-screen-2xl m-auto flex justify-center items-center flex-col">
-          <h5 class="py-10 text-3xl text-gray-600 text-center font-semibold" >
+          <h5 class="pb-10 text-3xl text-gray-600 text-center font-semibold" >
             Ainda dá tempo de aumentar o seu faturamento até o final do ano. Entre em contato agora e escale o seu negócio com campanhas de alto rendimento.
           </h5>
           <ButtonStart class="py-3 px-10 mb-10" />
